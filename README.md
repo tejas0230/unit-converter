@@ -52,7 +52,7 @@ The application was designed to be extensible so that additional conversion cate
 ## Solution Structure
 
 ```text
-dotnet/
+unit-converter/
 │
 ├── UnitConverter.sln
 │
