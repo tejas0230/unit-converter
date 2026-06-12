@@ -1,0 +1,12 @@
+services:
+  unit-converter:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    container_name: unit-converter
+
+    ports:
+      - "5158:5158"
+
+    restart: unless-stopped
