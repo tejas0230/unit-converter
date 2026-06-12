@@ -21,6 +21,11 @@ The application was designed to be extensible so that additional conversion cate
 | Unit       | Symbol |
 | ---------- | ------ |
 | Meter      | m      |
+| Millimeter | mm     |
+| Inch       | in     |
+| Foot       | ft     |
+| Yard       | yd     |
+| Mile       | mi     |
 | Centimeter | cm     |
 | Kilometer  | km     |
 
@@ -28,8 +33,10 @@ The application was designed to be extensible so that additional conversion cate
 
 | Unit     | Symbol |
 | -------- | ------ |
+| Milligram| mg     |
 | Kilogram | kg     |
 | Gram     | g      |
+| Ounce    | oz     |
 | Pound    | lb     |
 
 ### Temperature
