@@ -1,0 +1,34 @@
+@host = http://localhost:5158
+
+### Length
+
+POST {{host}}/api/conversions
+Content-Type: application/json
+
+{
+    "value": 100,
+    "fromUnit": "cm",
+    "toUnit": "m"
+}
+
+### Weight
+
+POST {{host}}/api/conversions
+Content-Type: application/json
+
+{
+    "value": 1,
+    "fromUnit": "kg",
+    "toUnit": "g"
+}
+
+### Temperature
+
+POST {{host}}/api/conversions
+Content-Type: application/json
+
+{
+    "value": 0,
+    "fromUnit": "c",
+    "toUnit": "f"
+}
